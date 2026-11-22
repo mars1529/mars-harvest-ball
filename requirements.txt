@@ -1,0 +1,8 @@
+# UIA 抓链接（微信视频号 / 抖音窗口）
+comtypes>=1.1.14
+
+# 说明：
+# - 其余功能只用 Python 标准库，无需额外依赖。
+# - 解析/下载由随项目附带的 Node.js 脚本（engine/sph_dl.mjs）完成，
+#   需要 Node.js 18+（内置 fetch / WebSocket），请自行安装。
+# - 浏览器（Edge 或 Chrome）用于抖音解析，会自动探测常见安装位置。

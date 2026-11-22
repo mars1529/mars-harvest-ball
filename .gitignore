@@ -1,0 +1,74 @@
+# ===== 运行时数据（含个人登录态 / 缓存 / 历史，绝不入库）=====
+data/
+library/
+downloads/
+outputs/
+harvest/
+workspace/
+
+# ===== 本地配置（可能含个人路径）=====
+config.json
+
+# ===== 登录态 / Cookie / 凭证（任何名字都别提交）=====
+*.cookie
+*cookie*.json
+yb-cookie.json
+session*.json
+*token*
+*.pem
+*.key
+.credentials/
+
+# ===== 日志 =====
+*.log
+*.log.*
+logs/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== Node =====
+node/
+node_modules/
+
+# ===== 二进制 / 大文件（脚本会自动探测系统已装程序，无需随仓库分发）=====
+*.exe
+*.dll
+*.msi
+*.zip
+*.rar
+*.7z
+*.mp4
+*.mov
+*.m4v
+*.avi
+*.mkv
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*$RECYCLE.BIN/
+
+# ===== 截图 / 临时文件 =====
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tmp
+*.bak
+*.orig
+# 例外：程序图标和界面贴图是运行必需的，允许提交
+!mars.ico
+!mars_hud.png
+# 例外：交流群二维码（发布者自行放入，属于要公开的信息）
+!community/*.png
+!community/*.jpg

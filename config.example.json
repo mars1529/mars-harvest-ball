@@ -1,0 +1,24 @@
+{
+  "_说明": "复制本文件为 config.json 后按需修改。不填也能直接运行，所有路径默认落在程序所在目录。",
+
+  "python": "",
+  "_python说明": "可选。Python 3 解释器的绝对路径。留空则自动从系统 PATH 查找（pythonw/python/py）。",
+
+  "node": "",
+  "_node说明": "可选。node.exe 的绝对路径。留空则自动从 PATH 查找，或用程序目录下的 node/node.exe。需要 Node.js 18+（内置 fetch/WebSocket）。",
+
+  "browser": "",
+  "_browser说明": "可选。Edge/Chrome 浏览器的绝对路径。留空则自动探测常见安装位置。解析抖音时会用到。",
+
+  "port": 8765,
+  "_port说明": "本地后端端口。被占用时会自动向后顺延，实际端口写入 data/port.txt。",
+
+  "library_dir": "",
+  "_library_dir说明": "可选。素材库目录（下载的视频放这里）。留空则使用程序目录下的 library/。",
+
+  "work_dir": "",
+  "_work_dir说明": "可选。工作缓存目录（浏览器 profile、解析缓存、链接历史）。留空则使用 data/harvest/。",
+
+  "engine_dir": "",
+  "_engine_dir说明": "可选。底层脚本目录。留空则使用程序自带的 engine/。一般无需修改。"
+}
